@@ -1,0 +1,14 @@
+@relation transaction
+
+@attribute Bread {TRUE,FALSE}
+@attribute Peanuts {TRUE,FALSE}
+@attribute Milk {TRUE,FALSE}
+@attribute Fruit {TRUE,FALSE}
+@attribute Jam {TRUE,FALSE}
+@attribute Soda {TRUE,FALSE}
+@attribute Chips {TRUE,FALSE}
+@attribute Steak {TRUE,FALSE}
+@attribute Cheese {TRUE,FALSE}
+@attribute Yogurt {TRUE,FALSE}
+@data
+TRUE,TRUE,?,?,?,?,?,?,?,?

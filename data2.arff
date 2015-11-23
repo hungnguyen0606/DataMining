@@ -1,0 +1,9 @@
+@relation trans
+
+@attribute a {TRUE,FALSE}
+@attribute b {TRUE,FALSE}
+
+@data
+
+TRUE,TRUE
+TRUE,?

@@ -1,0 +1,22 @@
+@relation transaction-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last
+
+@attribute Bread numeric
+@attribute Peanuts numeric
+@attribute Milk numeric
+@attribute Fruit numeric
+@attribute Jam numeric
+@attribute Soda numeric
+@attribute Chips numeric
+@attribute Steak numeric
+@attribute Cheese numeric
+@attribute Yogurt {TRUE,FALSE}
+
+@data
+0,0,0,0,0,?,?,?,?,?
+0,?,0,0,0,0,0,?,?,?
+0,?,?,?,0,0,0,0,?,?
+?,0,0,0,0,0,?,?,?,?
+0,?,0,?,0,0,0,?,?,?
+?,?,0,0,?,0,0,?,?,?
+?,0,0,0,?,0,?,?,?,?
+?,0,?,0,?,?,?,?,0,TRUE
